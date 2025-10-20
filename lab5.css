@@ -1,0 +1,64 @@
+#one {
+    color: navy;
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+p {
+    background-color: rgb(89, 220, 224);
+    text-align: center;
+    width: 500px;
+    margin-left: 400px;
+    
+}
+.item1{
+    margin-left: 0px;
+}
+
+
+h2,
+p,
+li {
+    border: solid 2px rgb(56, 21, 153);
+
+}
+
+div>p {
+    color: blue;
+}
+
+div>ul>li {
+    color: rgb(105, 152, 206);
+}
+
+.item {
+    background-color: yellow;
+    font-style: italic;
+}
+
+ul li:first-child {
+    font-weight: bold;
+}
+
+a:hover {
+    color: red;
+}
+
+p::first-letter {
+    font-size: 24px;
+    color: rgb(13, 226, 13);
+}
+
+img {
+    border: 2px solid black;
+    width: 200px;
+}
+ul> li{
+    width: 100px;
+
+
+}
+h2{
+    width: 200px;
+}
