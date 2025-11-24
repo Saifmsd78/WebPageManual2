@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #e3b6b6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .screen {
+    display: none;
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    background: rgb(236, 230, 230);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+  .screen.active {
+    display: block;
+  }
+  button {
+    padding: 12px 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    border: none;
+    background: #559be6;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #2462a5;
+  }
+  /* Options container (Flexbox) */
+  #options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+  }
+  .option {
+    padding: 14px;
+    background: #f7eeee;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .option:hover {
+    background: #f49393;
+  }
+  /* Correct / Wrong feedback */
+  .correct {
+    background: #4ddc51 !important;
+    color: white;
+  }
+  .wrong {
+    background: #f44336 !important;
+    color: rgb(250, 242, 242);
+  }
+  /* Responsive for mobile */
+  @media (max-width: 480px) {
+    button {
+      width: 100%;
+    }
+    .option {
+      font-size: 16px;
+      padding: 12px;
+    }
+  }

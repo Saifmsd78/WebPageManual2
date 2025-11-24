@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Welcome Screen -->
+  <div id="start-screen" class="screen active">
+    <h1>Welcome to the Quiz App</h1>
+    <p>Test your Web Technologies Knowledge!</p>
+    <button id="startBtn">Start Quiz</button>
+  </div>
+
+  <!-- Quiz Screen -->
+  <div id="quiz-screen" class="screen">
+    <h2 id="question-text"></h2>
+    <div id="options-container"></div>
+    <button id="nextBtn" class="hide">Next Question</button>
+  </div>
+
+  <!-- Result Screen -->
+  <div id="result-screen" class="screen">
+    <h2>Your Score:</h2>
+    <h1 id="score"></h1>
+    <p id="final-message"></p>
+    <button id="restartBtn">Restart Quiz</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
